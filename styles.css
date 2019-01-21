@@ -1,0 +1,41 @@
+.jumbotron-title {
+    font-size: 60px;
+    letter-spacing: -0.75px;
+    color: white;
+}
+
+.jumbotron-subtitle {
+    font-size: 30px;
+    letter-spacing: -0.75px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.content-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.brand-image {
+    height: 40px;
+    width: 40px;
+}
+.jumbo-expand {
+    padding: 90px;
+}
+
+.jumbotron-image-home {
+    background-image: url("images/jumbotron-background-home.jpg");
+    background-size: cover;
+}
+
+.jumbotron-image-photo {
+    background-image: url("images/jumbotron-background-photo.jpg");
+    background-size: cover;
+}
+
+.jumbotron-image-program {
+    background-image: url("images/jumbotron-background-program.jpg");
+    background-size: cover;
+}
