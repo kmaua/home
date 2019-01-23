@@ -10,20 +10,28 @@
     letter-spacing: -0.75px;
     color: white;
 }
-
+.content-title {
+    font-size: 30px;
+}
 .content-subtitle {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 21px;
 }
-
+.content-paragraph {
+    font-size: 19px;
+}
 .brand-image {
     height: 40px;
     width: 40px;
 }
+
+
 .jumbo-expand {
     padding: 90px;
 }
-
+.jumbo-content-separate {
+    padding: 10px;
+}
 .jumbotron-image-home {
     background-image: url("images/jumbotron-background-home.jpg");
     background-size: cover;
@@ -39,37 +47,7 @@
     background-size: cover;
 }
 
-.jumbotron-image-program {
+.jumbotron-image-design {
     background-image: url("images/jumbotron-background-design.jpg");
     background-size: cover;
-}
-
-@media(max-width:700px) {
-    .jumbotron-image-home {
-        background-image: url("images/jumbotron-background-home.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    .jumbotron-image-photo {
-        background-image: url("images/jumbotron-background-photo.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    .jumbotron-image-program {
-        background-image: url("images/jumbotron-background-program.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    .jumbotron-image-program {
-        background-image: url("images/jumbotron-background-design.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-
-    .jumbotron-subtitle {
-        font-size: 18px;
-    }
-    .jumbotron-title {
-        font-size: 36px; 
-    }
 }
