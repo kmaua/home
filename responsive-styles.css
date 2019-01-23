@@ -1,0 +1,34 @@
+@media(max-width:700px) {
+    .jumbotron-image-home {
+        background-image: url("images/jumbotron-background-home.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron-image-photo {
+        background-image: url("images/jumbotron-background-photo.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron-image-program {
+        background-image: url("images/jumbotron-background-program.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron-image-design {
+        background-image: url("images/jumbotron-background-design.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbo-content-separate {
+        padding: 0px;
+    }
+    .jumbotron-subtitle {
+        font-size: 18px;
+    }
+    .jumbotron-title {
+        font-size: 36px;
+    }
+    .jumbotron-expand {
+        padding: 0px;
+    }
+}
