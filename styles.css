@@ -2,13 +2,12 @@
     font-size: 60px;
     letter-spacing: -0.75px;
     color: white;
+    text-align: center;
 }
 
 .jumbotron-subtitle {
     font-size: 30px;
     letter-spacing: -0.75px;
-    padding-left: 10%;
-    padding-right: 10%;
     color: white;
 }
 
@@ -38,4 +37,39 @@
 .jumbotron-image-program {
     background-image: url("images/jumbotron-background-program.jpg");
     background-size: cover;
+}
+
+.jumbotron-image-program {
+    background-image: url("images/jumbotron-background-design.jpg");
+    background-size: cover;
+}
+
+@media(max-width:700px) {
+    .jumbotron-image-home {
+        background-image: url("images/jumbotron-background-home.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron-image-photo {
+        background-image: url("images/jumbotron-background-photo.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron-image-program {
+        background-image: url("images/jumbotron-background-program.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron-image-program {
+        background-image: url("images/jumbotron-background-design.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .jumbotron-subtitle {
+        font-size: 18px;
+    }
+    .jumbotron-title {
+        font-size: 36px; 
+    }
 }
