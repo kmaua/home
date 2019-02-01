@@ -3,13 +3,15 @@
 }
 
 .navbar {
-    position: sticky ;
+    position: sticky;
     top: 0px;
     z-index: 999;
 }
+
 .jumbotron {
     border-radius: 0px;
 }
+
 .jumbotron-title {
     font-size: 60px;
     letter-spacing: -0.75px;
@@ -22,20 +24,25 @@
     letter-spacing: -0.75px;
     color: white;
 }
+
 .content-title {
     font-size: 30px;
 }
+
 .content-subtitle {
     font-weight: 500;
     font-size: 21px;
 }
+
 .content-paragraph {
     font-size: 19px;
 }
+
 .brand-image {
     height: 40px;
     width: 40px;
 }
+
 a:hover {
     color: #c4c4c4;
 }
@@ -44,23 +51,27 @@ a:hover {
 .divider {
     padding: 20px;
 }
+
 .divider-sm {
     padding: 10px;
 }
+
 .footer {
     padding: 20px;
     background-color: #646464;
     width: 100%;
     height: 250px;
 }
+
 .footer-title {
-    font-family: sans-serif ;
+    font-family: sans-serif;
     font-size: 28px;
     font-weight: bold;
     color: #ebebeb;
 }
+
 .footer-content {
-    font-family: sans-serif ;
+    font-family: sans-serif;
     font-size: 18px;
     color: #ebebeb;
 }
@@ -70,12 +81,15 @@ a:hover {
     height: 100%;
     padding: 10px;
 }
+
 .jumbo-expand {
     padding: 90px;
 }
+
 .jumbo-content-separate {
     padding: 10px;
 }
+
 .jumbotron-image-home {
     background-image: url("images/jumbotron-background-home.jpg");
     background-size: cover;
@@ -94,4 +108,48 @@ a:hover {
 .jumbotron-image-design {
     background-image: url("images/jumbotron-background-design.jpg");
     background-size: cover;
+}
+
+.jumbotron-image-contact {
+    background-image: url("images/jumbotron-background-contact.jpg");
+    background-size: cover;
+}
+
+/* Email form css */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #337b36;
+}
+.container-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
