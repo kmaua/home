@@ -7,7 +7,9 @@
     top: 0px;
     z-index: 999;
 }
-
+.jumbotron {
+    border-radius: 0px;
+}
 .jumbotron-title {
     font-size: 60px;
     letter-spacing: -0.75px;
