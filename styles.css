@@ -116,6 +116,12 @@ a:hover {
     background-size: cover;
 }
 
+.disclaimer {
+    text-align: center;
+    font-size: 25px;
+    color: #6c6c6c;
+}
+
 /* Email form css */
 
 input[type=text], select, textarea {
