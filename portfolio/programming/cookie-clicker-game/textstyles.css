@@ -1,0 +1,117 @@
+.cookieCount {
+    position: absolute;
+    top: 70px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+}
+
+.cookiesPerSecond {
+    position: absolute;
+    top: 485px;
+    bottom: 0px;
+    right: 0px;
+    left: -175px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+    display: inline-block;
+}
+
+.cookiesPerClick {
+    position: absolute;
+    top: 485px;
+    bottom: 0px;
+    right: 0px;
+    left: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+    display: inline-block;
+}
+
+.upgradeButtons {
+    position: absolute;
+    top: 550px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.upgradeButtons2 {
+    position: absolute;
+    top: 675px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 110%;
+    vertical-align: middle;
+}
+
+.clickUpgrade {
+    position: absolute;
+    top: 580px;
+    bottom: 0px;
+    right: 0px;
+    left: -500px;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.autoClickUpgrade {
+    position: absolute;
+    top: 580px;
+    bottom: 0px;
+    right: 0px;
+    left: 500px;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.grandmaUpgrade {
+    position: absolute;
+    top: 700px;
+    bottom: 0px;
+    right: 0px;
+    left: -500px;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.bakeryUpgrade {
+    position: absolute;
+    top: 700px;
+    bottom: 0px;
+    right: 0px;
+    left: 500px;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.goldenCookie {
+    position: absolute;
+    top: 800px;
+    bottom: 0px;
+    right: 0px;
+    left: -180px;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}

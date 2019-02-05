@@ -1,0 +1,38 @@
+body {
+    background-image: url("images/testBackground.jpg");
+    background-size: 100%;
+    background-color: #cee4ff;
+    text-align: center;
+}
+.canvas {
+    position: absolute;
+    width: 400px ;
+    height: 400px ;
+    top: 135px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline {
+    display:inline-block;
+}
+
+
+.backgroundBox {
+    background-image: url("images/backgroundBox.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 750px;
+    height: 952px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+s

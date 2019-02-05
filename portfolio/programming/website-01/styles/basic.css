@@ -1,0 +1,22 @@
+body {
+    font-family: "Lato", "Helvetica Neue", sans-serif;
+    color: white;
+    background: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lora", "Times New Roman", serif;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+}
+
+/*DEBUG*/
+main {
+    height: 2200px;
+}

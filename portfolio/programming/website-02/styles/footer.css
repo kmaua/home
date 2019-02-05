@@ -1,0 +1,57 @@
+footer {
+    background-color: #8b502d;
+    
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section {
+    width: calc(100% - 300px);
+    float: left;
+}
+
+#map {
+    
+}
+
+map iframe {
+    min-height:400px;
+}
+
+#contact-info {
+    padding: 20px;
+    width: 300px;
+    float: right;
+}
+
+footer li .space-top {
+    padding-top: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .footer-section {
+        width: 100%;
+
+    }
+}
+
+#ccy-logo-small {
+    background-image: url(../images/ccy-light.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75px;
+    margin-top: 120px;
+}
+

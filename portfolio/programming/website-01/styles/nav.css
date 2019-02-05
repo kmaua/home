@@ -1,0 +1,32 @@
+nav {
+    background: #000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav li {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #EFA563;
+}
+
+@media screen and (max-width:700px) {
+    nav li {
+        width: 33.333333333%
+    }
+}
+
+

@@ -1,0 +1,24 @@
+nav {
+    background: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav li {
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #EFA563;
+}

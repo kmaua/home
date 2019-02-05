@@ -1,0 +1,87 @@
+.content-box {
+    padding: 30px;
+}
+
+.content-box > section {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.content-box > section > .left-text {
+    width: 50%;
+    float: left;
+    padding: 25px;
+    line-height: 2em;
+}
+.content-box > section > .right-text {
+    width: 50%;
+    float: right;
+    padding: 25px;
+    line-height: 2em;
+}
+
+.content-box > section > .right-images {
+    height: 400px;
+    background-size: cover;
+    width: 45%;
+    float:right;
+}
+.content-box > section > .left-images {
+    height: 400px;
+    background-size: cover;
+    float: left;
+    width: 45%;
+}
+
+.content-box > section > h2:first-of-type {
+    margin-top: 0 ;
+}
+
+#performance-b {
+    background-image: url(../images/performance-b.jpg);
+}
+#performance-a {
+    background-image: url(../images/performance-a.jpg);
+}
+#support {
+    background-image: url(../images/support.jpg);
+}
+#value-a {
+    background-image: url(../images/value-a.jpg);
+}
+#value-b {
+    background-image: url(../images/value-b.jpg);
+}
+
+.image-left-small {
+    height: 350px;
+    background-size: cover;
+    width: 24%;
+    float: left;
+}
+.image-right-small {
+    height: 350px;
+    background-size: cover;
+    width: 24%;
+    margin-left: 1%;
+    float: left;
+}
+
+.hidden-h2 {
+    visibility: hidden ;
+}
+@media screen and (max-width:700px) {
+    .content-box > section > .left-images,
+    .content-box > section > .right-images,
+    .content-box > section > .image-left-small,
+    .content-box > section > .image-right-small,
+    .content-box > section > .left-text,
+    .content-box > section > .right-text {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+

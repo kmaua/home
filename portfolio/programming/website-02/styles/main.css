@@ -1,0 +1,76 @@
+.text {
+    color: white;
+}
+
+.content-box {
+    padding: 50px;
+
+}
+
+.content-box > section {
+    max-height: 800;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #19292c;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #c7d9c6
+}
+
+.content-box > section > .image {
+    height: 200px;
+    background-size: cover;
+}
+
+.content-box > section h2:first-of-type {
+    margin-top: 0;
+}
+
+.content-box > section > .image,
+.content-box > section > .text {
+    float: left;
+    width: 50%;
+}
+
+.content-box > section > .float-right,
+.float-right {
+    float: right;
+}
+
+.content-box > section > .text {
+    padding: 20px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+@media screen and (max-width:700px) {
+
+    .content-box > section > .image,
+    .content-box > section > .text {
+        float: none;
+        width: 100%;
+    }
+    .content-box > section {
+        width: 95%;
+    }
+}
+@media screen and (max-width:1300px) {
+    .content-box > section {
+        width: 85%;
+    }
+}
+
+#to-skyline {
+    background-image: url(../images/toronto-skyline.jpg);
+    background-position: center;
+}
+
+#model-38-teaser {
+    background-image: url(../images/model-38-teaser.jpg);
+    background-position: center;
+}
+
+#model-19-image {
+    background-image: url(../images/model-19-image.jpg);
+    background-position: center;
+}

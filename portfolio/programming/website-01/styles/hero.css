@@ -1,0 +1,28 @@
+header#hero
+{
+  background          : lightgray;
+  padding-top         : 55px;
+  padding-bottom      : 150px;
+  background          : url("../images/model-38.jpg");
+  background-size     : cover;
+  background-position : center center;
+}
+
+header#hero div
+{
+  text-align  : center;
+  padding-top : 20px;
+  color       : white;
+}
+
+#claim
+{
+  font-size : 60pt;
+  text-shadow: 5px 5px 15px black;
+}
+
+#tagline
+{
+    font-size : 30pt;
+    text-shadow: 5px 5px 15px black;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>0 Cookies!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="textstyles.css">
+    <script src="cookie.js"></script>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+</head>
+
+<body onload="init();">
+    <div class="backgroundBox"></div>
+
+    <div class="cookieCount" style="font-size: 120%;">
+        <div>You've got: </div>
+        <div>
+            <input type="text" id="text" disabled style="text-align: center">
+        </div>
+        <div>Cookies!</div>
+    </div>
+    <!-- <a href=# onclick="addCookies()"><img src="images/cookie.png"></a>-->
+    <br><br>
+    <div class="cookiesPerClick">
+        <div>Cookies Per Click: </div>
+        <div id="cPerClick" class="inline"></div>
+    </div>
+    <br>
+    <div class="cookiesPerSecond">
+        <div>Cookies Per Second: </div>
+        <div id="cPerSec" class="inline"></div>
+    </div>
+    <br>
+
+    <div class="canvas">
+        <canvas id="stage" width="400px" height="400px">No Canvas Support</canvas>
+    </div>
+    <br><br>
+    <!--<div>Upgrade your mouse!</div>-->
+    <div class="upgradeButtons">
+        <button><a href=# onClick="clickUpgradeButton()"><img src="images/cursor2.png" width="200px" height="75px"></a>
+            <div id="mouseUpgradeCost"></div>
+            <div id="mouseUpgradeAmount"></div>
+        </button>
+        <button><a href=# onClick="autoClickButton()"><img src="images/autoClick.png" width="200px" height="75px"></a>
+            <div id="autoClickCost"></div>
+            <div id="autoClickAmount"></div>
+        </button>
+    </div>
+    <div class="upgradeButtons2">
+        <button><a href=# onClick="grandmaButton()"><img src="images/grandmaButton.png" width="200px" height="75px"></a>
+            <div id="grandmaCost"></div>
+            <div id="grandmaAmount"></div>
+        </button>
+        <button><a href=# onClick="bakeryButton()"><img src="images/bakeryButton.png" width="200px" height="75px"></a>
+            <div id="bakeryCost"></div>
+            <div id="bakeryAmount"></div>
+        </button>
+    </div>
+    <div class="clickUpgrade">
+        <button><a href=# onClick="goldenCursor()"><img src="images/goldenCursor.png" width=40px height="40px"></a>
+            <div id="goldenCursorCost"></div>
+        </button>
+    </div>
+
+    <div class="autoClickUpgrade">
+        <button><a href=# onClick="turboAutoClick()"><img src="images/turboAutoClick.png" width=40px height="40px"></a>
+            <div id="turboClickCost"></div>
+        </button>
+    </div>
+    <div class="grandmaUpgrade">
+        <button><a href=# onClick="goldenRollingPin()"><img src="images/rollingPin.png" width="40px" height="40px"></a>
+            <div id="goldenPinCost"></div>
+        </button>
+    </div>
+    <div class="bakeryUpgrade">
+        <button><a href=# onClick="goldenOven()"><img src="images/rollingPin.png" width="40px" height="40px"></a>
+            <div id="goldenOvenCost"></div>
+        </button>
+    </div>
+    <div class="goldenCookie">
+        <button><a href=# onClick="goldenCookie()"><img src="images/goldenCookie.png" width="200px" height="75px"></a>
+            <div id="goldenCookieCost"></div>
+            <div id="goldenCookieAmount"></div>
+        </button>
+    </div>
+</body>
+
+</html>
